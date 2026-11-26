@@ -1,0 +1,903 @@
+{
+  "version": "0.1",
+  "brand": "YISHU.BUSINESS",
+  "languages": [
+    "ru",
+    "en",
+    "ky",
+    "kk",
+    "uz",
+    "zh"
+  ],
+  "markets": [
+    "KG",
+    "KZ",
+    "UZ",
+    "CN",
+    "Global"
+  ],
+  "caseEntities": [
+    {
+      "id": "CASE-001",
+      "slug": "kleos",
+      "status": "original-development",
+      "nodes": [
+        "KRYTOSA",
+        "LIBERA",
+        "EXPANSA",
+        "OS"
+      ],
+      "relations": [
+        [
+          "KRYTOSA",
+          "precedes",
+          "LIBERA"
+        ],
+        [
+          "LIBERA",
+          "precedes",
+          "EXPANSA"
+        ],
+        [
+          "OS",
+          "integrates",
+          "KRYTOSA"
+        ],
+        [
+          "OS",
+          "integrates",
+          "LIBERA"
+        ],
+        [
+          "OS",
+          "integrates",
+          "EXPANSA"
+        ]
+      ]
+    },
+    {
+      "id": "nomad",
+      "slug": "nomad",
+      "status": "concept",
+      "scenarioBatchSizes": [
+        100,
+        1000,
+        10000
+      ]
+    },
+    {
+      "id": "issyk-kul",
+      "slug": "issyk-kul",
+      "status": "concept",
+      "nodes": [
+        "ecological-objective",
+        "participation",
+        "economic-mechanism"
+      ]
+    }
+  ],
+  "productIds": [
+    "NAME",
+    "IDENTITY",
+    "BRAND_ARCHITECTURE",
+    "BRAND_LAUNCH",
+    "GLOBAL_BRAND",
+    "SEMANTIC_ARCHITECTURE",
+    "BUSINESS_ONTOLOGY",
+    "ENTERPRISE_KNOWLEDGE_GRAPH",
+    "AI_READY_ARCHITECTURE",
+    "CENTRAL_ASIA_MARKET_ENTRY"
+  ],
+  "localizations": {
+    "ru": {
+      "label": "Русский",
+      "descriptor": "Бюро архитектуры бизнеса и брендов",
+      "hero": "Мы не вписываем ваше будущее в архитектуру прошлого.",
+      "intro": "Создаём архитектуру бизнеса, имени, продукта и смысла, которая позволяет им развиваться как единой системе — и готовит их к эпохе AI.",
+      "nav": [
+        "Главная",
+        "Услуги",
+        "Портфолио",
+        "Метод",
+        "Китай × Центральная Азия",
+        "Стоимость",
+        "Начать",
+        "Оплата",
+        "О нас"
+      ],
+      "cta": "Обсудить вашу задачу",
+      "view": "Смотреть архитектуру",
+      "selected": "Избранные разработки",
+      "selectedIntro": "Три разных задачи. Один способ увидеть новую конфигурацию возможностей.",
+      "status": [
+        "Авторская разработка",
+        "Авторская концепция",
+        "Авторская концепция"
+      ],
+      "layers": [
+        "Исходная реальность",
+        "Скрытая возможность",
+        "Архитектурный разворот",
+        "Система решения",
+        "Язык притяжения",
+        "Визуальная демонстрация",
+        "Коммерческая ценность",
+        "Масштабирование"
+      ],
+      "caseTitle": [
+        "Название как операционная система",
+        "Индивидуальность в масштабе",
+        "Экология через архитектуру участия"
+      ],
+      "caseSub": [
+        "Распознать → освободить → расширить",
+        "Персональный заказ → общая партия → персональный результат",
+        "Экологическая задача → мотивация → экономический механизм"
+      ],
+      "cases": [
+        [
+          "Имя часто отделено от внутренней логики продукта.",
+          "Имя может стать короткой картой всей системы.",
+          "KLEOS кодирует последовательность действий в самом названии.",
+          "KRYTOSA — распознать ограничения; LIBERA — освободить; EXPANSA — расширить; OS объединяет процессы.",
+          "Название позволяет рассказать о продукте через его структуру.",
+          "Три действия связываются единым операционным контуром.",
+          "Единый язык для команды, продукта и коммуникаций; коммерческий эффект не измерен.",
+          "Одна смысловая архитектура для индивидуальных и командных программ."
+        ],
+        [
+          "Индивидуальный пошив и крупная серия обычно рассматриваются как разные модели.",
+          "Параметры и предпочтения покупателей можно собирать до производства.",
+          "Персональный заказ совместим с серийным выпуском.",
+          "Дистанционные параметры тела, выбор размера, материала, цвета и орнамента; агрегирование заказов.",
+          "Один дизайн — ваша индивидуальность.",
+          "Сценарии партий 100, 1 000 и 10 000, а не полученные заказы.",
+          "Потенциальная экономия масштаба и расширение рынка; экономика, измерения и логистика требуют проверки.",
+          "Возможна работа с несколькими рынками и производителями при подтверждении модели."
+        ],
+        [
+          "Управление популяцией судака в Иссык-Куле связано с задачей сохранения ценных видов рыб.",
+          "Массовое участие и экономические стимулы могут стать частью экологической стратегии.",
+          "Объединить экологическую цель, мотивацию и коммуникационную архитектуру.",
+          "Авторская концепция вовлечения; подробный механизм не раскрывается.",
+          "Участие людей как часть общей цели.",
+          "Концептуальные связи между экологией, участием и экономикой.",
+          "Возможный общественный и экономический эффект требует отдельной оценки.",
+          "Масштабирование зависит от экологической проверки, правил вылова и подтверждённой модели."
+        ]
+      ],
+      "services": [
+        "Имя",
+        "Идентичность",
+        "Архитектура бренда",
+        "Запуск бренда",
+        "Глобальный бренд",
+        "Семантическая архитектура",
+        "Онтология бизнеса",
+        "Граф знаний предприятия",
+        "AI-ready архитектура",
+        "Выход на рынок Центральной Азии"
+      ],
+      "svcText": [
+        "Имя, смысл, фонетика и первичная проверка.",
+        "Единый язык, визуальный и смысловой характер.",
+        "Связь имени, продуктов, аудиторий и ценности.",
+        "Архитектура сайта, коммуникаций и выхода на рынок.",
+        "Межкультурная система бренда и локализация.",
+        "Термины, смыслы и отношения.",
+        "Формальная модель сущностей, классов и связей.",
+        "Связанные данные и знания предприятия.",
+        "Структура для будущих AI-интеграций.",
+        "Адаптация предложения к целевым рынкам."
+      ],
+      "method": [
+        "Реальность",
+        "Корень",
+        "Исследование",
+        "Дизайн",
+        "Граница возможностей"
+      ],
+      "methodText": "Сначала выявляем устройство задачи и её ограничения. Затем проектируем новые связи между существующими и недооценёнными элементами. Визуальная форма делает эти связи понятными.",
+      "marketText": "Кыргызстан, Казахстан, Узбекистан, Китай и международные рынки. Язык, рынок проекта и валюта выбираются независимо. Культурная адаптация и проверка носителями — отдельная часть работы.",
+      "priceText": "Стоимость определяется целевым рынком, объёмом, масштабом и локализацией. Предварительная оценка помогает выбрать состав работ; финальная цена согласуется индивидуально.",
+      "payText": "Платёжные реквизиты и доступные валюты согласуются в индивидуальном предложении. Онлайн-оплата пока не подключена.",
+      "about": "YISHU (艺术, Yìshù) — искусство создания бизнеса. Мы соединяем бизнес-логику, бренд, семантику и архитектуру знаний. YISHU входит в экосистему ROOT FRONTIER SYSTEMS.",
+      "form": [
+        "Целевой рынок",
+        "Тип задачи",
+        "Масштаб проекта",
+        "Количество языков",
+        "Краткое описание",
+        "Ваш email",
+        "Подготовить оценку",
+        "Открыть письмо",
+        "Ваш предварительный профиль",
+        "Цена — по согласованному предложению",
+        "Заполните поля. Письмо откроется в вашем почтовом приложении; отправьте его самостоятельно.",
+        "Малый бизнес",
+        "Растущая компания",
+        "Крупная организация"
+      ],
+      "notice": "Концепции и разработки автора. Не являются подтверждёнными результатами внешних клиентов.",
+      "back": "К портфолио",
+      "language": "Выберите язык",
+      "footer": "Часть экосистемы ROOT FRONTIER SYSTEMS",
+      "result": "Рекомендуемый контур"
+    },
+    "en": {
+      "label": "English",
+      "descriptor": "Business & Brand Architecture Bureau",
+      "hero": "We do not fit your future into the architecture of the past.",
+      "intro": "We design business, naming, product and meaning as one evolving system — built for the age of AI.",
+      "nav": [
+        "Home",
+        "Services",
+        "Portfolio",
+        "Method",
+        "China × Central Asia",
+        "Pricing",
+        "Start",
+        "Payment",
+        "About"
+      ],
+      "cta": "Discuss your project",
+      "view": "Explore the architecture",
+      "selected": "Selected work",
+      "selectedIntro": "Three distinct challenges. One way of discovering new configurations of value.",
+      "status": [
+        "Original development",
+        "Original concept",
+        "Original concept"
+      ],
+      "layers": [
+        "Current reality",
+        "Hidden opportunity",
+        "Architectural shift",
+        "Solution system",
+        "Language of attraction",
+        "Visual demonstration",
+        "Commercial value",
+        "Scaling"
+      ],
+      "caseTitle": [
+        "A name as an operating system",
+        "Individuality at scale",
+        "Ecology through participation"
+      ],
+      "caseSub": [
+        "Recognise → liberate → expand",
+        "Personal order → shared batch → personal outcome",
+        "Ecological goal → motivation → economic mechanism"
+      ],
+      "cases": [
+        [
+          "Names are often separated from the internal logic of a product.",
+          "A name can become a concise map of an entire system.",
+          "KLEOS encodes a sequence of actions in its name.",
+          "KRYTOSA recognises limitations; LIBERA liberates; EXPANSA expands; OS connects the processes.",
+          "The structure of the name tells the product story.",
+          "Three actions are connected by one operating layer.",
+          "A common language for team, product and communications; commercial impact has not been measured.",
+          "One semantic architecture for individual and team programmes."
+        ],
+        [
+          "Custom tailoring and large production runs are usually treated as separate models.",
+          "Customer measurements and preferences can be collected before production.",
+          "Personal orders can coexist with serial production.",
+          "Remote body measurements, sizes, materials, colours and ornaments; aggregation of orders.",
+          "One design, your individuality.",
+          "Batch scenarios of 100, 1,000 and 10,000, not actual orders.",
+          "Potential economies of scale and market expansion; economics, measurements and logistics need validation.",
+          "Multiple markets and manufacturers could participate once the model is validated."
+        ],
+        [
+          "Managing pike-perch populations in Issyk-Kul relates to conserving valued fish species.",
+          "Participation and economic incentives could support an ecological strategy.",
+          "Connect the ecological objective, motivation and communication architecture.",
+          "An original participation concept; detailed mechanisms are not disclosed.",
+          "Individual participation in a shared objective.",
+          "Conceptual links between ecology, participation and economics.",
+          "Potential social and economic effects require separate assessment.",
+          "Scaling depends on ecological validation, fishing rules and a confirmed model."
+        ]
+      ],
+      "services": [
+        "Name",
+        "Identity",
+        "Brand Architecture",
+        "Brand Launch",
+        "Global Brand",
+        "Semantic Architecture",
+        "Business Ontology",
+        "Enterprise Knowledge Graph",
+        "AI-Ready Architecture",
+        "Central Asia Market Entry"
+      ],
+      "svcText": [
+        "Naming, meaning, phonetics and preliminary checks.",
+        "A coherent verbal and visual identity.",
+        "Connect names, products, audiences and value.",
+        "Website, communications and market launch architecture.",
+        "Cross-cultural brand architecture and localisation.",
+        "Terms, meanings and relationships.",
+        "Formal model of entities, classes and relationships.",
+        "Connected enterprise data and knowledge.",
+        "A foundation for future AI integrations.",
+        "Adapt the proposition to target markets."
+      ],
+      "method": [
+        "Reality",
+        "Root",
+        "Research",
+        "Design",
+        "Frontier"
+      ],
+      "methodText": "We examine the structure and constraints of a challenge, then design new relationships between existing and undervalued elements. Visual form makes these relationships understandable.",
+      "marketText": "Kyrgyzstan, Kazakhstan, Uzbekistan, China and international markets. Language, project market and currency are independent choices. Cultural adaptation and native-language review are part of the work.",
+      "priceText": "Pricing depends on project market, scope, scale and localisation. The assessment identifies the likely scope; the final quote is agreed individually.",
+      "payText": "Payment details and available currencies are agreed in the individual proposal. Online payment is not connected yet.",
+      "about": "YISHU (艺术, Yìshù) means art: the art of creating business. We connect business logic, brand, semantics and knowledge architecture. YISHU is part of ROOT FRONTIER SYSTEMS.",
+      "form": [
+        "Target market",
+        "Project type",
+        "Project scale",
+        "Number of languages",
+        "Brief description",
+        "Your email",
+        "Prepare assessment",
+        "Open email",
+        "Your preliminary profile",
+        "Price on individual proposal",
+        "Complete the fields. Your email app will open; send the message yourself.",
+        "Small business",
+        "Growing company",
+        "Large organisation"
+      ],
+      "notice": "Original concepts and developments, not verified external client outcomes.",
+      "back": "Back to portfolio",
+      "language": "Choose language",
+      "footer": "Part of ROOT FRONTIER SYSTEMS",
+      "result": "Recommended scope"
+    },
+    "ky": {
+      "label": "Кыргызча",
+      "descriptor": "Бизнес жана бренд архитектура бюросу",
+      "hero": "Биз сиздин келечегиңизди өткөндүн архитектурасына батырбайбыз.",
+      "intro": "Биз бизнести, аталышты, өнүмдү жана маанини бирдиктүү система катары түзөбүз жана AI дооруна даярдайбыз.",
+      "nav": [
+        "Башкы бет",
+        "Кызматтар",
+        "Портфолио",
+        "Метод",
+        "Кытай × Борбор Азия",
+        "Баасы",
+        "Баштоо",
+        "Төлөм",
+        "Биз жөнүндө"
+      ],
+      "cta": "Долбооруңузду талкуулоо",
+      "view": "Архитектураны көрүү",
+      "selected": "Тандалган иштер",
+      "selectedIntro": "Үч башка маселе. Мүмкүнчүлүктөрдү жаңыча көрүүнүн бир жолу.",
+      "status": [
+        "Автордук иштелме",
+        "Автордук концепция",
+        "Автордук концепция"
+      ],
+      "layers": [
+        "Баштапкы абал",
+        "Жашыруун мүмкүнчүлүк",
+        "Архитектуралык өзгөрүү",
+        "Чечим системасы",
+        "Тартуу тили",
+        "Визуалдык көрсөтүү",
+        "Коммерциялык баалуулук",
+        "Масштабдоо"
+      ],
+      "caseTitle": [
+        "Аталыш — операциялык система",
+        "Жекелик жана масштаб",
+        "Катышуу аркылуу экология"
+      ],
+      "caseSub": [
+        "Таануу → бошотуу → кеңейтүү",
+        "Жеке заказ → жалпы партия → жеке натыйжа",
+        "Экологиялык максат → мотивация → экономикалык механизм"
+      ],
+      "cases": [
+        [
+          "Аталыш көп учурда өнүмдүн ички логикасынан бөлүнөт.",
+          "Аталыш бүт системанын кыска картасы боло алат.",
+          "KLEOS аталышы аракеттердин ыраатын камтыйт.",
+          "KRYTOSA — чектөөлөрдү таануу; LIBERA — бошотуу; EXPANSA — кеңейтүү; OS процесстерди бириктирет.",
+          "Аталыш өнүмдүн түзүлүшүн түшүндүрөт.",
+          "Үч аракет бир операциялык катмар менен байланышат.",
+          "Команда, өнүм жана байланыш үчүн жалпы тил; коммерциялык таасир өлчөнө элек.",
+          "Жеке жана командалык программалар үчүн бирдиктүү маанилик архитектура."
+        ],
+        [
+          "Жеке тигүү жана ири серия адатта өзүнчө моделдер.",
+          "Кардардын өлчөмдөрүн жана каалоолорун өндүрүшкө чейин чогултууга болот.",
+          "Жеке заказ сериялык өндүрүш менен айкалыша алат.",
+          "Дене параметрлерин алыстан алуу, өлчөм, материал, түс жана оймо тандоо; заказдарды бириктирүү.",
+          "Бир дизайн — сиздин өзгөчөлүгүңүз.",
+          "100, 1 000 жана 10 000 дааналык сценарийлер; чыныгы заказдар эмес.",
+          "Масштабдын пайдасы жана рыноктун кеңейиши мүмкүн; экономика, өлчөө жана логистика текшерилет.",
+          "Модель текшерилгенден кийин бир нече рынок жана өндүрүүчү катыша алат."
+        ],
+        [
+          "Ысык-Көлдөгү судактын популяциясын башкаруу баалуу балык түрлөрүн сактоо маселесине байланыштуу.",
+          "Элдин катышуусу жана экономикалык стимулдар экологиялык стратегияга көмөктөшүшү мүмкүн.",
+          "Экологиялык максатты, мотивацияны жана коммуникацияны бириктирүү.",
+          "Автордук катышуу концепциясы; деталдары ачык эмес.",
+          "Жалпы максатка жеке катышуу.",
+          "Экология, катышуу жана экономиканын концептуалдык байланышы.",
+          "Мүмкүн болгон коомдук жана экономикалык таасир өзүнчө бааланат.",
+          "Масштабдоо экологиялык текшерүүгө, балык уулоо эрежелерине жана ырасталган моделге көз каранды."
+        ]
+      ],
+      "services": [
+        "Аталыш",
+        "Идентификация",
+        "Бренд архитектурасы",
+        "Брендди ишке киргизүү",
+        "Глобалдык бренд",
+        "Семантикалык архитектура",
+        "Бизнес онтологиясы",
+        "Ишкананын билим графы",
+        "AI үчүн архитектура",
+        "Борбор Азия рыногуна чыгуу"
+      ],
+      "svcText": [
+        "Аталыш, маани, фонетика жана алдын ала текшерүү.",
+        "Бирдиктүү сөздүк жана визуалдык образ.",
+        "Аталыш, өнүм, аудитория жана баалуулук байланышы.",
+        "Сайт, коммуникация жана рынокко чыгуу.",
+        "Маданияттар аралык архитектура жана локалдаштыруу.",
+        "Терминдер, маанилер жана байланыштар.",
+        "Объекттердин, класстардын жана байланыштардын формалдуу модели.",
+        "Ишкананын байланышкан маалыматтары жана билими.",
+        "Келечектеги AI интеграциясынын негизи.",
+        "Сунушту максаттуу рынокко ылайыкташтыруу."
+      ],
+      "method": [
+        "Чындык",
+        "Түпкү себеп",
+        "Изилдөө",
+        "Дизайн",
+        "Жаңы чек"
+      ],
+      "methodText": "Маселенин түзүлүшүн жана чектөөлөрүн изилдейбиз. Андан кийин элементтердин ортосунда жаңы байланыштарды долбоорлойбуз.",
+      "marketText": "Кыргызстан, Казакстан, Өзбекстан, Кытай жана эл аралык рыноктор. Тил, долбоордун рыногу жана валюта өзүнчө тандалат.",
+      "priceText": "Баасы рынокко, иштин көлөмүнө, масштабга жана локалдаштырууга жараша. Акыркы баа жеке сунушта макулдашылат.",
+      "payText": "Төлөм шарттары жеке сунушта макулдашылат. Онлайн төлөм азырынча кошула элек.",
+      "about": "YISHU (艺术, Yìshù) — бизнес түзүү өнөрү. Биз бизнес логикасын, брендди, семантиканы жана билим архитектурасын бириктиребиз. ROOT FRONTIER SYSTEMS экосистемасынын бөлүгү.",
+      "form": [
+        "Максаттуу рынок",
+        "Долбоордун түрү",
+        "Долбоордун масштабы",
+        "Тилдердин саны",
+        "Кыскача сүрөттөмө",
+        "Email дарегиңиз",
+        "Баалоону даярдоо",
+        "Катты ачуу",
+        "Алдын ала профиль",
+        "Баасы жеке сунуш боюнча",
+        "Талааларды толтуруңуз. Почта тиркемеси ачылат; катты өзүңүз жөнөтүңүз.",
+        "Чакан бизнес",
+        "Өсүп жаткан компания",
+        "Ири уюм"
+      ],
+      "notice": "Автордук концепциялар жана иштелмелер; тышкы кардарлардын ырасталган натыйжалары эмес.",
+      "back": "Портфолиого",
+      "language": "Тилди тандаңыз",
+      "footer": "ROOT FRONTIER SYSTEMS экосистемасынын бөлүгү",
+      "result": "Сунушталган иш көлөмү"
+    },
+    "kk": {
+      "label": "Қазақша",
+      "descriptor": "Бизнес және бренд архитектурасы бюросы",
+      "hero": "Біз сіздің болашағыңызды өткеннің архитектурасына сыйғызбаймыз.",
+      "intro": "Бизнес, атау, өнім және мағынаны біртұтас дамушы жүйе ретінде жобалап, AI дәуіріне дайындаймыз.",
+      "nav": [
+        "Басты бет",
+        "Қызметтер",
+        "Портфолио",
+        "Әдіс",
+        "Қытай × Орталық Азия",
+        "Баға",
+        "Бастау",
+        "Төлем",
+        "Біз туралы"
+      ],
+      "cta": "Жобаңызды талқылау",
+      "view": "Архитектураны көру",
+      "selected": "Таңдаулы жұмыстар",
+      "selectedIntro": "Үш түрлі міндет. Мүмкіндіктердің жаңа құрылымын көрудің бір жолы.",
+      "status": [
+        "Авторлық әзірлеме",
+        "Авторлық тұжырымдама",
+        "Авторлық тұжырымдама"
+      ],
+      "layers": [
+        "Бастапқы жағдай",
+        "Жасырын мүмкіндік",
+        "Архитектуралық өзгеріс",
+        "Шешім жүйесі",
+        "Тартымдылық тілі",
+        "Көрнекі көрсету",
+        "Коммерциялық құндылық",
+        "Масштабтау"
+      ],
+      "caseTitle": [
+        "Атау — операциялық жүйе",
+        "Даралық және ауқым",
+        "Қатысу арқылы экология"
+      ],
+      "caseSub": [
+        "Тану → босату → кеңейту",
+        "Жеке тапсырыс → ортақ партия → жеке нәтиже",
+        "Экологиялық мақсат → ынталандыру → экономикалық тетік"
+      ],
+      "cases": [
+        [
+          "Атау көбіне өнімнің ішкі логикасынан бөлек қаралады.",
+          "Атау бүкіл жүйенің қысқа картасы бола алады.",
+          "KLEOS атауы әрекеттердің ретін қамтиды.",
+          "KRYTOSA — шектеулерді тану; LIBERA — босату; EXPANSA — кеңейту; OS процестерді біріктіреді.",
+          "Атау құрылымы өнімді түсіндіреді.",
+          "Үш әрекет бір операциялық қабатпен байланысады.",
+          "Команда, өнім және коммуникация үшін ортақ тіл; коммерциялық әсер өлшенбеген.",
+          "Жеке және командалық бағдарламаларға ортақ мағыналық архитектура."
+        ],
+        [
+          "Жеке тігін мен ірі серия әдетте бөлек модельдер.",
+          "Клиенттің өлшемдері мен қалауын өндіріс алдында жинауға болады.",
+          "Жеке тапсырыс сериялық өндіріспен үйлеседі.",
+          "Дене параметрлерін қашықтан алу, өлшем, материал, түс пен өрнек таңдау; тапсырыстарды біріктіру.",
+          "Бір дизайн — сіздің даралығыңыз.",
+          "100, 1 000 және 10 000 даналық сценарийлер; нақты тапсырыстар емес.",
+          "Ауқым үнемі және нарықтың кеңеюі мүмкін; экономика, өлшем және логистика тексеріледі.",
+          "Модель расталған соң бірнеше нарық пен өндіруші қатыса алады."
+        ],
+        [
+          "Ыстықкөлдегі көксерке популяциясын басқару бағалы балық түрлерін сақтау міндетімен байланысты.",
+          "Қатысу және экономикалық ынталандыру экологиялық стратегияны қолдауы мүмкін.",
+          "Экологиялық мақсатты, ынталандыруды және коммуникацияны біріктіру.",
+          "Авторлық қатысу тұжырымдамасы; егжей-тегжейі жарияланбайды.",
+          "Ортақ мақсатқа жеке қатысу.",
+          "Экология, қатысу және экономика арасындағы тұжырымдамалық байланыс.",
+          "Ықтимал қоғамдық және экономикалық әсер жеке бағаланады.",
+          "Масштабтау экологиялық тексеруге, балық аулау ережелеріне және расталған модельге байланысты."
+        ]
+      ],
+      "services": [
+        "Атау",
+        "Сәйкестік",
+        "Бренд архитектурасы",
+        "Брендті іске қосу",
+        "Жаһандық бренд",
+        "Семантикалық архитектура",
+        "Бизнес онтологиясы",
+        "Кәсіпорынның білім графы",
+        "AI-ға дайын архитектура",
+        "Орталық Азия нарығына шығу"
+      ],
+      "svcText": [
+        "Атау, мағына, фонетика және алдын ала тексеру.",
+        "Біртұтас сөздік және визуалдық бейне.",
+        "Атау, өнім, аудитория мен құндылық байланысы.",
+        "Сайт, коммуникация және нарыққа шығу.",
+        "Мәдениетаралық архитектура және локализация.",
+        "Терминдер, мағыналар және байланыстар.",
+        "Нысандардың, кластардың және байланыстардың формалды моделі.",
+        "Кәсіпорынның байланысқан деректері мен білімі.",
+        "Болашақ AI интеграцияларына негіз.",
+        "Ұсынысты мақсатты нарыққа бейімдеу."
+      ],
+      "method": [
+        "Шындық",
+        "Түпкі себеп",
+        "Зерттеу",
+        "Дизайн",
+        "Жаңа шек"
+      ],
+      "methodText": "Міндеттің құрылымы мен шектеулерін зерттеп, элементтер арасында жаңа байланыстарды жобалаймыз.",
+      "marketText": "Қырғызстан, Қазақстан, Өзбекстан, Қытай және халықаралық нарықтар. Тіл, жоба нарығы және валюта бөлек таңдалады.",
+      "priceText": "Баға нарыққа, жұмыс көлеміне, ауқымға және локализацияға байланысты. Соңғы баға жеке ұсыныста келісіледі.",
+      "payText": "Төлем шарттары жеке ұсыныста келісіледі. Онлайн төлем әлі қосылмаған.",
+      "about": "YISHU (艺术, Yìshù) — бизнес құру өнері. Біз бизнес логикасын, брендті, семантиканы және білім архитектурасын біріктіреміз. ROOT FRONTIER SYSTEMS экожүйесінің бөлігі.",
+      "form": [
+        "Мақсатты нарық",
+        "Жоба түрі",
+        "Жоба ауқымы",
+        "Тілдер саны",
+        "Қысқаша сипаттама",
+        "Email мекенжайыңыз",
+        "Бағалауды дайындау",
+        "Хатты ашу",
+        "Алдын ала профиль",
+        "Баға жеке ұсыныс бойынша",
+        "Өрістерді толтырыңыз. Пошта қолданбасы ашылады; хатты өзіңіз жіберіңіз.",
+        "Шағын бизнес",
+        "Өсіп келе жатқан компания",
+        "Ірі ұйым"
+      ],
+      "notice": "Авторлық тұжырымдамалар мен әзірлемелер; сыртқы клиенттердің расталған нәтижелері емес.",
+      "back": "Портфолиоға",
+      "language": "Тілді таңдаңыз",
+      "footer": "ROOT FRONTIER SYSTEMS экожүйесінің бөлігі",
+      "result": "Ұсынылатын жұмыс көлемі"
+    },
+    "uz": {
+      "label": "O‘zbekcha",
+      "descriptor": "Biznes va brend arxitekturasi byurosi",
+      "hero": "Biz kelajagingizni o‘tmish arxitekturasiga moslashtirmaymiz.",
+      "intro": "Biznes, nom, mahsulot va ma’noni yagona rivojlanuvchi tizim sifatida loyihalaymiz va AI davriga tayyorlaymiz.",
+      "nav": [
+        "Bosh sahifa",
+        "Xizmatlar",
+        "Portfolio",
+        "Usul",
+        "Xitoy × Markaziy Osiyo",
+        "Narx",
+        "Boshlash",
+        "To‘lov",
+        "Biz haqimizda"
+      ],
+      "cta": "Loyihangizni muhokama qiling",
+      "view": "Arxitekturani ko‘ring",
+      "selected": "Tanlangan ishlar",
+      "selectedIntro": "Uch xil vazifa. Imkoniyatlarning yangi tuzilishini ko‘rishning bir usuli.",
+      "status": [
+        "Muallif ishlanmasi",
+        "Muallif konsepsiyasi",
+        "Muallif konsepsiyasi"
+      ],
+      "layers": [
+        "Boshlang‘ich holat",
+        "Yashirin imkoniyat",
+        "Arxitektura burilishi",
+        "Yechim tizimi",
+        "Joziba tili",
+        "Vizual namoyish",
+        "Tijoriy qiymat",
+        "Masshtablash"
+      ],
+      "caseTitle": [
+        "Nom — operatsion tizim",
+        "Individuallik va ko‘lam",
+        "Ishtirok orqali ekologiya"
+      ],
+      "caseSub": [
+        "Aniqlash → ozod qilish → kengaytirish",
+        "Shaxsiy buyurtma → umumiy partiya → shaxsiy natija",
+        "Ekologik maqsad → motivatsiya → iqtisodiy mexanizm"
+      ],
+      "cases": [
+        [
+          "Nom ko‘pincha mahsulotning ichki mantig‘idan ajratiladi.",
+          "Nom butun tizimning ixcham xaritasi bo‘lishi mumkin.",
+          "KLEOS nomi harakatlar ketma-ketligini ifodalaydi.",
+          "KRYTOSA — cheklovlarni aniqlash; LIBERA — ozod qilish; EXPANSA — kengaytirish; OS jarayonlarni birlashtiradi.",
+          "Nom tuzilishi mahsulotni tushuntiradi.",
+          "Uch harakat bitta operatsion qatlamda bog‘lanadi.",
+          "Jamoa, mahsulot va kommunikatsiya uchun umumiy til; tijoriy ta’sir o‘lchanmagan.",
+          "Individual va jamoaviy dasturlar uchun yagona semantik arxitektura."
+        ],
+        [
+          "Individual tikuv va yirik seriya odatda alohida modellardir.",
+          "Mijoz o‘lchamlari va istaklarini ishlab chiqarishdan oldin yig‘ish mumkin.",
+          "Shaxsiy buyurtma seriyali ishlab chiqarishga mos keladi.",
+          "Masofaviy tana o‘lchamlari, o‘lcham, material, rang va naqsh tanlovi; buyurtmalarni birlashtirish.",
+          "Bitta dizayn — sizning individualligingiz.",
+          "100, 1 000 va 10 000 donalik ssenariylar; haqiqiy buyurtmalar emas.",
+          "Ko‘lam tejamkorligi va bozor kengayishi mumkin; iqtisodiyot, o‘lchov va logistika tekshiriladi.",
+          "Model tasdiqlangach, bir nechta bozor va ishlab chiqaruvchi qatnashishi mumkin."
+        ],
+        [
+          "Issiqko‘ldagi sudak populyatsiyasini boshqarish qimmatli baliq turlarini saqlash vazifasi bilan bog‘liq.",
+          "Ishtirok va iqtisodiy rag‘batlar ekologik strategiyani qo‘llashi mumkin.",
+          "Ekologik maqsad, motivatsiya va kommunikatsiyani birlashtirish.",
+          "Muallifning ishtirok konsepsiyasi; tafsilotlari oshkor qilinmaydi.",
+          "Umumiy maqsadda shaxsiy ishtirok.",
+          "Ekologiya, ishtirok va iqtisodiyot o‘rtasidagi konseptual bog‘lanishlar.",
+          "Ehtimoliy ijtimoiy va iqtisodiy ta’sir alohida baholanadi.",
+          "Masshtablash ekologik tekshiruv, baliq ovlash qoidalari va tasdiqlangan modelga bog‘liq."
+        ]
+      ],
+      "services": [
+        "Nom",
+        "Identifikatsiya",
+        "Brend arxitekturasi",
+        "Brendni ishga tushirish",
+        "Global brend",
+        "Semantik arxitektura",
+        "Biznes ontologiyasi",
+        "Korxona bilim grafigi",
+        "AI-ready arxitektura",
+        "Markaziy Osiyo bozoriga chiqish"
+      ],
+      "svcText": [
+        "Nom, ma’no, fonetika va dastlabki tekshiruv.",
+        "Yagona verbal va vizual identifikatsiya.",
+        "Nom, mahsulot, auditoriya va qiymat aloqasi.",
+        "Sayt, kommunikatsiya va bozorga chiqish.",
+        "Madaniyatlararo arxitektura va lokalizatsiya.",
+        "Terminlar, ma’nolar va aloqalar.",
+        "Obyektlar, sinflar va aloqalarning formal modeli.",
+        "Korxonaning bog‘langan ma’lumotlari va bilimlari.",
+        "Kelajakdagi AI integratsiyalari uchun asos.",
+        "Taklifni maqsadli bozorga moslash."
+      ],
+      "method": [
+        "Haqiqat",
+        "Ildiz",
+        "Tadqiqot",
+        "Dizayn",
+        "Yangi chegara"
+      ],
+      "methodText": "Vazifaning tuzilishi va cheklovlarini o‘rganamiz, so‘ng elementlar orasidagi yangi aloqalarni loyihalaymiz.",
+      "marketText": "Qirg‘iziston, Qozog‘iston, O‘zbekiston, Xitoy va xalqaro bozorlar. Til, loyiha bozori va valyuta alohida tanlanadi.",
+      "priceText": "Narx bozor, ish hajmi, ko‘lam va lokalizatsiyaga bog‘liq. Yakuniy narx individual taklifda kelishiladi.",
+      "payText": "To‘lov shartlari individual taklifda kelishiladi. Onlayn to‘lov hali ulanmagan.",
+      "about": "YISHU (艺术, Yìshù) — biznes yaratish san’ati. Biz biznes mantig‘i, brend, semantika va bilim arxitekturasini birlashtiramiz. ROOT FRONTIER SYSTEMS ekotizimining bir qismi.",
+      "form": [
+        "Maqsadli bozor",
+        "Loyiha turi",
+        "Loyiha ko‘lami",
+        "Tillar soni",
+        "Qisqa tavsif",
+        "Email manzilingiz",
+        "Baholashni tayyorlash",
+        "Xatni ochish",
+        "Dastlabki profil",
+        "Narx individual taklif bo‘yicha",
+        "Maydonlarni to‘ldiring. Pochta dasturi ochiladi; xatni o‘zingiz yuboring.",
+        "Kichik biznes",
+        "O‘sayotgan kompaniya",
+        "Yirik tashkilot"
+      ],
+      "notice": "Muallif konsepsiyalari va ishlanmalari; tashqi mijozlarning tasdiqlangan natijalari emas.",
+      "back": "Portfolioga",
+      "language": "Tilni tanlang",
+      "footer": "ROOT FRONTIER SYSTEMS ekotizimining bir qismi",
+      "result": "Tavsiya etilgan ish hajmi"
+    },
+    "zh": {
+      "label": "简体中文",
+      "descriptor": "商业与品牌架构事务所",
+      "hero": "我们不把您的未来装进过去的架构。",
+      "intro": "我们将商业、命名、产品与意义设计为统一演进的系统，为人工智能时代做好准备。",
+      "nav": [
+        "首页",
+        "服务",
+        "案例",
+        "方法",
+        "中国 × 中亚",
+        "报价",
+        "开始",
+        "付款",
+        "关于我们"
+      ],
+      "cta": "探讨您的项目",
+      "view": "探索架构",
+      "selected": "精选项目",
+      "selectedIntro": "三个不同的挑战，一种发现全新价值组合的方法。",
+      "status": [
+        "原创开发",
+        "原创概念",
+        "原创概念"
+      ],
+      "layers": [
+        "现状",
+        "隐藏的机会",
+        "架构转变",
+        "解决方案体系",
+        "吸引力语言",
+        "可视化展示",
+        "商业价值",
+        "规模化"
+      ],
+      "caseTitle": [
+        "名称即操作系统",
+        "规模化的个性",
+        "通过参与实现生态目标"
+      ],
+      "caseSub": [
+        "识别 → 释放 → 扩展",
+        "个性化订单 → 合并生产批次 → 个性化成果",
+        "生态目标 → 激励 → 经济机制"
+      ],
+      "cases": [
+        [
+          "名称往往与产品内部逻辑相互分离。",
+          "名称可以成为整个系统的精简地图。",
+          "KLEOS 将行动序列编码在名称中。",
+          "KRYTOSA 识别限制；LIBERA 释放；EXPANSA 扩展；OS 连接这些过程。",
+          "通过名称的结构讲述产品故事。",
+          "三个行动通过统一的操作层相连。",
+          "为团队、产品与传播建立共同语言；商业效果尚未测量。",
+          "个人与团队项目共享同一语义架构。"
+        ],
+        [
+          "个性化裁剪与大批量生产通常被视为两种模式。",
+          "客户的身体尺寸与偏好可以在生产前收集。",
+          "个性化订单可以与批量生产共存。",
+          "远程获取身体参数，选择尺寸、材质、颜色与纹样；汇总订单。",
+          "同一设计，您的个性。",
+          "100、1,000 与 10,000 件的批量情景，并非实际订单。",
+          "潜在的规模经济与市场拓展；经济性、测量与物流需要验证。",
+          "模型验证后，可与多个市场和制造商合作。"
+        ],
+        [
+          "伊塞克湖的梭鲈种群管理与保护珍贵鱼类的任务相关。",
+          "公众参与和经济激励可能支持生态战略。",
+          "连接生态目标、激励机制与传播架构。",
+          "原创参与概念；具体机制不公开。",
+          "个人参与共同目标。",
+          "生态、参与与经济之间的概念性关系。",
+          "潜在社会与经济影响需独立评估。",
+          "规模化取决于生态验证、捕捞规定与模型确认。"
+        ]
+      ],
+      "services": [
+        "命名",
+        "品牌识别",
+        "品牌架构",
+        "品牌启动",
+        "全球品牌",
+        "语义架构",
+        "商业本体",
+        "企业知识图谱",
+        "AI 就绪架构",
+        "中亚市场进入"
+      ],
+      "svcText": [
+        "命名、含义、语音及初步核查。",
+        "统一的语言与视觉识别。",
+        "连接名称、产品、受众与价值。",
+        "网站、传播与市场启动架构。",
+        "跨文化品牌架构与本地化。",
+        "术语、意义及关系。",
+        "实体、类别和关系的形式化模型。",
+        "互联的企业数据与知识。",
+        "为未来 AI 集成奠定基础。",
+        "面向目标市场调整价值主张。"
+      ],
+      "method": [
+        "现实",
+        "根源",
+        "研究",
+        "设计",
+        "前沿"
+      ],
+      "methodText": "我们研究挑战的结构与限制，然后在现有及被低估的元素之间设计新的关系，让这些关系通过视觉形式变得清晰。",
+      "marketText": "吉尔吉斯斯坦、哈萨克斯坦、乌兹别克斯坦、中国及国际市场。语言、项目市场和货币独立选择。文化适配与母语审校是工作的一部分。",
+      "priceText": "价格取决于目标市场、范围、规模和本地化需求。初步评估用于确定工作范围，最终报价单独协商。",
+      "payText": "付款方式和可用货币在个性化方案中协商。在线支付尚未接入。",
+      "about": "YISHU（艺术，Yìshù）意味着创造商业的艺术。我们连接商业逻辑、品牌、语义和知识架构。YISHU 属于 ROOT FRONTIER SYSTEMS 生态体系。",
+      "form": [
+        "目标市场",
+        "项目类型",
+        "项目规模",
+        "语言数量",
+        "简要描述",
+        "您的电子邮件",
+        "生成初步评估",
+        "打开邮件",
+        "您的初步项目概况",
+        "价格以个性化方案为准",
+        "填写字段后，邮件应用将打开；请自行发送邮件。",
+        "小型企业",
+        "成长型公司",
+        "大型机构"
+      ],
+      "notice": "原创概念与开发项目，并非已验证的外部客户成果。",
+      "back": "返回案例",
+      "language": "选择语言",
+      "footer": "ROOT FRONTIER SYSTEMS 生态体系的一部分",
+      "result": "建议的工作范围"
+    }
+  }
+}
