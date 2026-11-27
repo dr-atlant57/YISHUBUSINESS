@@ -1,5 +1,6 @@
 import {engine,axes,graph} from './yishu.mjs';
 import {locale} from './locale.mjs';
+import {relatedCases,caseURL,caseLabels} from './cases.mjs';
 
 const dirs=['inbound','domestic','outbound','regional'];
 const trans=['develop','transform','integrate','protect'];
@@ -73,6 +74,16 @@ export function mount(form){
    [now,row[2],row[3]].forEach((x,i)=>{const card=el('div',null,'idba-state');card.append(el('span',u[7+i],'kicker'),el('strong',x));grid.append(card);});
    panel.append(grid,el('p',u[10],'muted'),el('h4',u[11]));
    const ul=el('ul',null,'idba-layers');p.task.forEach(x=>{const name=t.comp[comps.indexOf(x.split('.')[1])];if(name)ul.append(el('li',name));});panel.append(ul);
+   const related=relatedCases(p),caseLang=caseLabels[lang]?lang:'en',cl=caseLabels[caseLang];
+   if(related.length){
+    panel.append(el('h4',cl[0]));
+    const list=el('div',null,'idba-options');
+    for(const c of related){
+     const a=el('a',c.name+' · '+cl[c.stage==='prototype'?2:1],'outline');
+     a.href=caseURL(c,caseLang);list.append(a);
+    }
+    panel.append(list);
+   }
    const context=el('p','Context ID: '+p.contextId,'idba-context');
    const controls=el('div',null,'idba-actions');
    controls.append(btn(u[12],()=>{
