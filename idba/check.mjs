@@ -1,0 +1,22 @@
+import { engine, axes, graph } from './yishu.mjs';
+const results=[];
+function check(name,value){if(!value)throw new Error(name);results.push(name);}
+check('89 nodes',graph.nodes.length===89);
+check('129 edges',graph.edges.length===129);
+check('11 routes',graph.nodes.filter(n=>n.type==='intent').length===11);
+const s={s:'owner',i:'enter',o:'CN',d:'KZ',src:'quiz'};
+check('China to Kazakhstan',engine.profile(s).direction==='inbound'&&engine.profile(s).route==='enter');
+check('four answers',engine.nextAxis(s,4)===null);
+check('required before budget',engine.nextAxis({s:'owner',i:'enter'},4)==='origin');
+check('exclude HOME',!engine.options({s:'owner',i:'enter'},'destination').includes('HOME'));
+check('bad URL stripped',Object.keys(engine.sanitize({s:'<script>',src:'unknown',r:'__proto__'})).length===0);
+check('semantic task',engine.profile({s:'owner',i:'semantic',ind:'it'}).task.includes('comp.sem'));
+check('regional',engine.profile({s:'owner',i:'expand',o:'KG',d:'KZ'}).direction==='regional');
+check('outbound',engine.profile({s:'owner',i:'expand',o:'KG',d:'CN'}).direction==='outbound');
+check('missing destination stays unknown',engine.profile({s:'owner',i:'enter',o:'CN'}).direction===null);
+check('specialist',engine.profile({s:'spec',o:'CN'}).route==='network');
+check('agent invalid origin removed',engine.nextAxis({s:'agent',o:'CN'},4)==='origin');
+check('scenario separation',engine.profile(s).scenarios[0]==='ev.enter');
+check('context excludes arbitrary contact fields',engine.profile({...s,email:'test@example.com',ref:'personal-name'}).contextId===engine.profile(s).contextId);
+for(const n of graph.nodes.filter(n=>n.type==='intent'))check('route '+n.route,engine.profile({r:n.route}).route===n.route&&engine.profile({r:n.route}).opportunities.length===1);
+console.log(results.length+' IDBA checks passed');
